@@ -10,7 +10,7 @@ header {
     margin-bottom: 50px;
 }
 .header-div {
-    max-width: 1640px;
+    max-width: 1920px;
     width: 100%;
     height: 126px;
     display: flex;
@@ -22,25 +22,32 @@ header {
   
 }
 .header-div img {
-    margin-right: 380px;
+    margin-right: 150px;
 
 }
 .header-nav-ul {
     display: flex;
     flex-wrap: wrap;
     color: #42495B;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 600;
    
 }
 .header-nav-ul li {
     margin-right: 60px;
+    
 }
 .header-nav-ul li:hover {
     color: palevioletred;
-    font-size: 20px;
+    font-size: 25px;
 
 
+}
+.registergif {
+    max-width: 120px;
+    width: 100%;
+    
+    
 }
 .fa-bars {
     display: none;
@@ -74,6 +81,7 @@ section {
     font-size: 50px;
     font-weight: bold;
     margin-bottom: 40px;
+    color: lightpink;
     
 }
 .left-block p {
@@ -82,6 +90,7 @@ section {
     font-size: 23px;
     font-weight: lighter;
     margin-bottom: 15px;
+    color: purple;
     
 }
 
@@ -308,52 +317,156 @@ h5::before {
 
 /* section5 */
 .container4 {
-    max-width: 1940px;
+    max-width: 1400px;
     width: 100%;
-    height: 840px;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
     margin-top: 100px;
 
 
 }
-.container4 h3 {
-    text-align: center;
+.container4h3 {
     max-width: 380px;
     width: 100%;
     font-size: 47px;
     font-weight: 600;
     color: pink;
-    margin-bottom: 50px;
+    margin-left: 700px;
     
 
 }
 .leftblock {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    max-width: 50%;
-    width: 100%;
-    height: 530px;
+    max-width: 700px; 
+    width: 100%; 
+    
 }
 .left-block img {
-    max-width: 700px;
+    max-width: 600px;
     width: 100%;
 }
+/* order form */
 .rightblock {
-    display: flex;
-    max-width: 50%;
+   
+    max-width: 800px;
     width: 100%;
-    height: 530px;
+    height: 450px;
+    margin: 0 auto;
     background-color: lightpink;
 
 }
-    
-    
-   
-    
-   
-    
 
+.label-wrapper {
+    margin-left: 180px;
+    margin-top: 3px;
+    font-size: 18px;
+    color: purple;
+}
+.form-wrapper {
+    max-width: 420px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    
+   
+}
+.input-wrapper {
+    max-width: 920px;
+    width: 100%;
+    height: 40px;
+    font-size: 13px;
+    color: #2E2E2E;
+    opacity: 0.4 ;
+    margin-top: 9px;
+    margin-bottom: 15px;
+}
+.textarea-wrapper {
+    max-width: 420px;
+    width: 100%;
+    height: 112px;
+    resize: none;
+    opacity: 0.4 ;
+    margin-top: 9px;
+    margin-bottom: 15px;
+}
+.button-type {
+    color: #FFFFFF;
+    font-size: 15px;
+    background-color: purple;
+    max-width: 151px;
+    width: 100%;
+    height: 32px;
+    margin-left: 273px;
+}
+.button-type:hover {
+    background-color:palevioletred;
+    font-size: 20px;
+} 
+.gifimage {
+    width: 90%;
+    margin-left: 100px;
+}
+
+/* registerhtml */
+.registerform {
+   
+    max-width: 1800px;
+    width: 100%;
+    height: 750px;
+    margin: 0 auto;
+    background-color: lightpink;
+
+}
+
+.label-wrapper1 {
+    margin-left: 10px;
+    margin-top: 15px;
+    font-size: 18px;
+    color: purple;
+}
+.form-wrapper1 {
+    max-width: 420px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    
+   
+}
+.input-wrapper1 {
+    max-width: 920px;
+    width: 100%;
+    height: 40px;
+    font-size: 13px;
+    color: #2E2E2E;
+    opacity: 0.4 ;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.button-type1 {
+    color: #FFFFFF;
+    font-size: 15px;
+    background-color: purple;
+    max-width: 151px;
+    width: 100%;
+    height: 32px;
+    margin-left: 765px;
+    margin-top: 30px;
+}
+.button-type1:hover {
+    background-color:palevioletred;
+    font-size: 20px;
+    
+}
+.formh3 {
+    font-size: 75px;
+    color: purple;
+    margin-left: 450px;
+    margin-bottom: 50px;
+}
