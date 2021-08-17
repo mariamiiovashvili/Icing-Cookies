@@ -108,7 +108,7 @@ section {
 .container {
     max-width: 1940px;
     width: 100%;
-    height: 1040px;
+    /* height: 1040px; */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -176,11 +176,11 @@ section {
 .container-line2 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    max-width: 1640px;
+    /* max-width: 1640px; */
     width: 100%;
-    height: 540px;
+    /* height: 540px; */
 
 }
 .line2 { 
@@ -195,7 +195,7 @@ section {
 .line2 img {
     max-width: 300px;
     width: 100%;
-    height: 300px;
+    /* height: 300px; */
     opacity: 1.0;
     box-shadow: 5px 10px 10px #8888;
 }
@@ -215,13 +215,14 @@ h5::before {
 .container2 {
     max-width: 1940px;
     width: 100%;
-    height: 840px;
+    /* height: 840px; */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
     margin-top: 100px;
+    
 
 }
 .container2 h3 {
@@ -231,7 +232,7 @@ h5::before {
     font-size: 47px;
     font-weight: 600;
     color: pink;
-    /* margin-bottom: 10px; */
+    margin-bottom: 10px;
 
 }
 .container2-line1 {
@@ -242,6 +243,7 @@ h5::before {
     /* max-width: 1940px; */
     width: 80%;
     /* height: 540px; */
+    padding-top: 45px;
 
 }
 .cont-line1 {
@@ -317,38 +319,36 @@ h5::before {
 
 /* section5 */
 .container4 {
-    max-width: 1400px;
+    max-width: 940px;
     width: 100%;
+    /* height: 1040px; */
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
     margin-top: 100px;
-
-
 }
 .container4h3 {
+    text-align: center;
     max-width: 380px;
     width: 100%;
     font-size: 47px;
     font-weight: 600;
     color: pink;
-    margin-left: 700px;
+    margin-bottom: 50px;
     
 
 }
 .leftblock {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    
     max-width: 700px; 
     width: 100%; 
     
 }
-.left-block img {
-    max-width: 600px;
-    width: 100%;
-}
+
 /* order form */
 .rightblock {
    
@@ -385,31 +385,48 @@ h5::before {
     margin-top: 9px;
     margin-bottom: 15px;
 }
-.textarea-wrapper {
-    max-width: 420px;
-    width: 100%;
-    height: 112px;
-    resize: none;
-    opacity: 0.4 ;
-    margin-top: 9px;
-    margin-bottom: 15px;
+.input-wrap {
+    color: purple;
+    background-color: purple;
+}
+.checkbox{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    color: purple;
+    font-size: 18px;
+    margin-top: 15px;
+    
+
+}
+.form-p {
+    margin-right: 15px;
 }
 .button-type {
-    color: #FFFFFF;
-    font-size: 15px;
-    background-color: purple;
+    display: flex;
+    flex-direction: column;
     max-width: 151px;
     width: 100%;
     height: 32px;
-    margin-left: 273px;
+    margin: 0 auto;
+    
+    
+   
+    
+    
 }
-.button-type:hover {
+.button-type button {
+    color: #FFFFFF;
+    background-color: purple;
+    font-size: 15px;
+}
+.button-type button:hover {
     background-color:palevioletred;
     font-size: 20px;
 } 
 .gifimage {
     width: 90%;
-    margin-left: 100px;
+    /* margin-left: 100px; */
 }
 
 /* registerhtml */
@@ -469,4 +486,153 @@ h5::before {
     color: purple;
     margin-left: 450px;
     margin-bottom: 50px;
+}
+
+/* contact html */
+.contact-div {
+    display: flex;
+    max-width: 1920px;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.contact-div h2 {
+    color: purple;
+    font-size: 65px;
+}
+.contact-div h3 {
+    color: purple;
+    font-size: 35px;
+    margin-top: 50px;
+    margin-bottom: 18px;
+
+}
+.contact-div p {
+    font-size: 25px;
+    columns: grey;
+    margin-bottom: 10px;
+}
+
+.contact-wrapper {
+    max-width: 1920px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 90px;
+    /* align-items: center; */
+}
+.formwrapper2 {
+    max-width: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    
+   
+}
+
+.contact-form h3 {
+    font-size: 30px;
+    color: purple;
+    margin-bottom: 20px;
+}
+.contact {
+    max-width: 1500px;
+    width: 100%;
+    height: 35px;
+    opacity: 1.0; 
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border-color: inherit;
+    font-size: 15px;
+    color: purple;
+}
+::placeholder {
+    color: purple;
+    font-size: 15px;
+    opacity: 0.4;
+}
+.submit {
+    color: purple;
+    font-size: 25px;
+    border-radius: 15px 15px 15px 15px;
+    border-color: purple;
+    background-color: white;
+    max-width: 150px;
+    width: 100%;
+    height:35px;
+    
+    margin-top: 30px;
+}
+.submit:hover {
+    color:palevioletred;
+    /* font-size: 20px; */
+    
+}
+.textwrap {
+    max-width: 420px;
+    width: 100%;
+    height: 100px;
+    border-radius: 5px 5px 5px 5px;
+    border-color: inherit;
+}
+.small-div {
+    max-width: 900px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 950px;
+    margin-top: 50px;
+    color: purple;
+    
+}
+.address {
+    margin-right: 50px;
+    
+}
+.address h4,
+.mail h4 {
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+/* footer */
+.footer-div {
+    display: flex;
+    background-color: lightpink;
+    max-width: 1920px;
+    width: 100%;
+    padding-left: 80px;
+    padding-top: 20px;
+}
+.footer-div h4 {
+    font-size: 15px;
+}
+.footer-nav{
+    max-width: 900px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin: auto 0;
+    line-height: 30px;
+    font-size: 20px;
+}
+.footer-logos {
+    max-width: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto 0;
+
+    font-size: 30px;
+    color: white;
+}
+.foth4 {
+    background-color: lightpink;
+   font-size: 15px;
 }
