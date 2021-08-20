@@ -16,13 +16,15 @@ header {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    padding-top: 15px;
+    padding-top: 5px;
     padding-left: 100px;
     
   
 }
-.header-div img {
+.headerimg {
     margin-right: 150px;
+    max-width: 244px;
+    width: 100%;
 
 }
 .header-nav-ul {
@@ -31,6 +33,8 @@ header {
     color: #42495B;
     font-size: 17px;
     font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 140px;
    
 }
 .header-nav-ul li {
@@ -40,13 +44,19 @@ header {
 .header-nav-ul li:hover {
     color: palevioletred;
     font-size: 25px;
+    font-family: 'Poppins', sans-serif;
 
 
 }
 .registergif {
     max-width: 120px;
     width: 100%;
+    margin-left: 90px;
     
+    
+}
+.registergif:hover {
+    max-width: 130px;
     
 }
 .fa-bars {
@@ -80,6 +90,7 @@ section {
     width: 100%;
     font-size: 50px;
     font-weight: bold;
+    font-family: 'Poppins', sans-serif;
     margin-bottom: 40px;
     color: lightpink;
     
@@ -89,6 +100,7 @@ section {
     width: 100%;
     font-size: 23px;
     font-weight: lighter;
+    font-family: 'Poppins', sans-serif;
     margin-bottom: 15px;
     color: purple;
     
@@ -122,6 +134,7 @@ section {
     width: 100%;
     font-size: 47px;
     font-weight: 600;
+    font-family: 'Poppins', sans-serif;
     color: pink;
     margin-bottom: 50px;
     
@@ -155,6 +168,7 @@ section {
 .line2 h3 {
     font-size: 21px;
     font-weight: 600;
+    font-family: 'Poppins', sans-serif;
     color: #C19C9C;
     margin-top: 10px;
     margin-bottom: 5px;
@@ -163,6 +177,7 @@ section {
 .line2 h4 {
     font-size: 18px;
     font-weight: 500;
+    font-family: 'Poppins', sans-serif;
     color: #565656;
     margin-bottom: 5px;
 }
@@ -170,6 +185,7 @@ section {
 .line2 h5 {
     font-size: 20px;
     font-weight: 600;
+    font-family: 'Poppins', sans-serif;
     color: #42495B;
    
 }
@@ -208,6 +224,7 @@ h5::before {
     content: "SALE ";
     color: red;
     font-size: 18px;
+
     
 }
 
@@ -231,6 +248,7 @@ h5::before {
     width: 100%;
     font-size: 47px;
     font-weight: 600;
+    font-family: 'Poppins', sans-serif;
     color: pink;
     margin-bottom: 10px;
 
@@ -250,6 +268,7 @@ h5::before {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     max-width: 188px;
     width: 100%;
 
@@ -264,6 +283,7 @@ h5::before {
 .cont-line1 h3 {
     font-size: 21px;
     font-weight: 600;
+    font-family: 'Poppins', sans-serif;
     color: #C19C9C;
     margin-top: 10px;
     margin-bottom: 5px;
@@ -272,6 +292,7 @@ h5::before {
 .cont-line1 h4 {
     font-size: 18px;
     font-weight: 500;
+    font-family: 'Poppins', sans-serif;
     color: #565656;
     margin-bottom: 5px;
 
@@ -279,8 +300,24 @@ h5::before {
 .cont-line1 h5 {
     font-size: 20px;
     font-weight: 600;
+    font-family: 'Poppins', sans-serif;
     color: #42495B;
 
+}
+/* slick */
+.slider {
+    display: flex;
+}
+.slider .slider_item {
+    width: 350px;
+    height: 250px;
+    margin:30px;
+}
+.slider .slider_item img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
 }
 
 /* section4 */
@@ -300,18 +337,21 @@ h5::before {
     width: 100%;
     font-size: 47px;
     font-weight: 600;
+    font-family: 'Poppins', sans-serif;
     color: pink;
     margin-bottom: 20px;
 
 }
 .container3 h4 {
     font-size: 25px;
+    font-family: 'Poppins', sans-serif;
     color: #C19C9C;
     margin-top: 80px;
     
 }
 .container3 p {
     font-size: 20px;
+    font-family: 'Poppins', sans-serif;
     line-height: 25px;
     margin-top: 35px;
     color: dimgrey;
@@ -328,6 +368,7 @@ h5::before {
     align-items: center;
     margin: 0 auto;
     margin-top: 100px;
+    margin-bottom: 200px;
 }
 .container4h3 {
     text-align: center;
@@ -335,6 +376,7 @@ h5::before {
     width: 100%;
     font-size: 47px;
     font-weight: 600;
+    font-family: 'Poppins', sans-serif;
     color: pink;
     margin-bottom: 50px;
     
@@ -364,6 +406,7 @@ h5::before {
     margin-left: 180px;
     margin-top: 3px;
     font-size: 18px;
+    font-family: 'Poppins', sans-serif;
     color: purple;
 }
 .form-wrapper {
@@ -380,6 +423,7 @@ h5::before {
     width: 100%;
     height: 40px;
     font-size: 13px;
+    font-family: 'Poppins', sans-serif;
     color: #2E2E2E;
     opacity: 0.4 ;
     margin-top: 9px;
@@ -395,6 +439,7 @@ h5::before {
     justify-content: center;
     color: purple;
     font-size: 18px;
+    font-family: 'Poppins', sans-serif;
     margin-top: 15px;
     
 
@@ -418,11 +463,17 @@ h5::before {
 .button-type button {
     color: #FFFFFF;
     background-color: purple;
-    font-size: 15px;
+    height: 55px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
 }
 .button-type button:hover {
     background-color:palevioletred;
     font-size: 20px;
+    color: purple;
+    font-family: 'Poppins', sans-serif;
+
+    
 } 
 .gifimage {
     width: 90%;
@@ -444,6 +495,7 @@ h5::before {
     margin-left: 10px;
     margin-top: 15px;
     font-size: 18px;
+    font-family: 'Poppins', sans-serif;
     color: purple;
 }
 .form-wrapper1 {
@@ -460,6 +512,7 @@ h5::before {
     width: 100%;
     height: 40px;
     font-size: 13px;
+    font-family: 'Poppins', sans-serif;
     color: #2E2E2E;
     opacity: 0.4 ;
     margin-top: 10px;
@@ -469,6 +522,7 @@ h5::before {
 .button-type1 {
     color: #FFFFFF;
     font-size: 15px;
+    font-family: 'Poppins', sans-serif;
     background-color: purple;
     max-width: 151px;
     width: 100%;
@@ -483,6 +537,7 @@ h5::before {
 }
 .formh3 {
     font-size: 75px;
+    font-family: 'Poppins', sans-serif;
     color: purple;
     margin-left: 450px;
     margin-bottom: 50px;
@@ -501,16 +556,19 @@ h5::before {
 .contact-div h2 {
     color: purple;
     font-size: 65px;
+    font-family: 'Cormorant Upright', serif;
 }
 .contact-div h3 {
     color: purple;
     font-size: 35px;
+    font-family: 'Cormorant Upright', serif;
     margin-top: 50px;
     margin-bottom: 18px;
 
 }
 .contact-div p {
     font-size: 25px;
+    font-family: 'Cormorant Upright', serif;
     columns: grey;
     margin-bottom: 10px;
 }
@@ -519,6 +577,7 @@ h5::before {
     max-width: 1920px;
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     margin-top: 90px;
     /* align-items: center; */
@@ -535,6 +594,7 @@ h5::before {
 
 .contact-form h3 {
     font-size: 30px;
+    font-family: 'Poppins', sans-serif;
     color: purple;
     margin-bottom: 20px;
 }
@@ -547,28 +607,30 @@ h5::before {
     border-radius: 5px;
     border-color: inherit;
     font-size: 15px;
+    font-family: 'Poppins', sans-serif;
     color: purple;
 }
 ::placeholder {
     color: purple;
     font-size: 15px;
+    font-family: 'Poppins', sans-serif;
     opacity: 0.4;
 }
 .submit {
     color: purple;
     font-size: 25px;
-    border-radius: 15px 15px 15px 15px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 20px 20px 20px 20px;
     border-color: purple;
     background-color: white;
     max-width: 150px;
     width: 100%;
-    height:35px;
-    
+    height:45px;
     margin-top: 30px;
 }
 .submit:hover {
     color:palevioletred;
-    /* font-size: 20px; */
+    font-size: 30px;
     
 }
 .textwrap {
@@ -579,13 +641,16 @@ h5::before {
     border-color: inherit;
 }
 .small-div {
-    max-width: 900px;
+    max-width: 1400px;
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
     text-align: center;
     font-size: 20px;
-    margin-left: 950px;
+    font-family: 'Poppins', sans-serif;
     margin-top: 50px;
+    margin-bottom: 50px;
     color: purple;
     
 }
@@ -597,19 +662,32 @@ h5::before {
 .mail h4 {
     margin-bottom: 20px;
     font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+.mapouter {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 /* footer */
 .footer-div {
     display: flex;
+    flex-wrap: wrap;
     background-color: lightpink;
     max-width: 1920px;
     width: 100%;
     padding-left: 80px;
     padding-top: 20px;
+    margin-top: 70px;
+}
+.footer-div img {
+    max-width: 360px;
+    width: 100%;
+
 }
 .footer-div h4 {
     font-size: 15px;
+    font-family: 'Poppins', sans-serif;
 }
 .footer-nav{
     max-width: 900px;
@@ -626,13 +704,15 @@ h5::before {
     max-width: 300px;
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     margin: auto 0;
-
+    font-family: 'Poppins', sans-serif;
     font-size: 30px;
     color: white;
 }
 .foth4 {
-    background-color: lightpink;
+   background-color: lightpink;
    font-size: 15px;
+   font-family: 'Poppins', sans-serif;
 }
