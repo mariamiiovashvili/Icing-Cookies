@@ -1,21 +1,21 @@
 $(function(){
     $('.multiple-items').slick({
-     infinite: true,
-     // რამდენი სურათი გამოჩნდეს
+     infinite: false,
      slidesToShow: 3,
-     // სლაიდის დროს რამდენი ელემნტით გადავიდეს 
-     slidesToScroll: 1,
-     // რომ გამოჩნდეს ღილაკები
-    //arrows: true,
-     // რომ გამოჩნდეს ბურთულები
+     slidesToScroll: 2,
+     
+     
+    
+     
      dots:true,
-     // responsiv-ის კოდი
+     
      responsive: [
          {
-           breakpoint: 768,
+           breakpoint: 922,
            settings: {
-             slidesToShow: 2,
-             slidesToScroll: 1
+             
+             slidesToShow: 3,
+             slidesToScroll: 2
            }
          },
          {
