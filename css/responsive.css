@@ -6,7 +6,9 @@
         margin-top: -30px;
     }
     .header-div {
-        justify-content:space-evenly;
+        -webkit-box-pack:space-evenly;
+            -ms-flex-pack:space-evenly;
+                justify-content:space-evenly;
     }
     .header-nav-ul {
         font-size: 15px;
@@ -35,7 +37,9 @@
         margin-left: 100px;
     }
     .footer-div {
-        justify-content: space-between;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
     }
     .cont-line1 {
         max-width: 300px;
@@ -53,13 +57,18 @@
    
     .header-div {
         height: auto;
-        justify-content: space-between;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
         
     }
         
     .header-nav-ul {
         display: none;
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
         line-height: 26px;
         margin-right: 100px;
         
@@ -107,7 +116,9 @@
         width: 100%;
     }
     .footer-div {
-        justify-content: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
     }
     .foth4 {
         display: none;
@@ -127,14 +138,18 @@
         margin-bottom: 50px;
     }
     .small-div {
-        justify-content: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
     }
    
     
  }
  @media (max-width: 734px) {
     .footer-logos {
-        justify-content: space-between;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
         
     }
     
@@ -168,8 +183,11 @@
          max-width: 450px;
          width: 100%;
          margin-left: -50px;
-         padding-inline-start: 50PX;
-         justify-content: space-between;
+         -webkit-padding-start: 50PX;
+                 padding-inline-start: 50PX;
+         -webkit-box-pack: justify;
+             -ms-flex-pack: justify;
+                 justify-content: space-between;
         
      }
      .footer-div img {
@@ -179,13 +197,16 @@
 }
 @media (max-width: 430px) {
     .mail {
-      align-items: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
       margin-left: -50px;
       margin-top: 20px;
       
     }
     .addess {
-        align-items: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
 }
-

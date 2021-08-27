@@ -3,7 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="We are ROYAL COOKIES, the largest hand decorated cookie company!">
+    <meta name="keywords" content="hand decorated Cookies,sweeties,Cookies">
+    <meta name="author" content="MAriami">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:url"                content="https://kristina-makalatia.github.io/lesson12-116/" />
+    <meta property="og:type"               content="online store" />
+    <meta property="og:title"              content="Iced Cookies" />
+    <meta property="og:description"        content="We are ROYAL COOKIES, the largest hand decorated cookie company!" />
+    <meta property="og:image"              content="images/fb.jpg" />
+    
+    
     <title>Iced Cookies</title>
     
     <script src="https://kit.fontawesome.com/225e84c276.js" crossorigin="anonymous"></script>
@@ -12,27 +22,30 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+	<link href="https://kenwheeler.github.io/slick/slick/slick-theme.css" rel="stylesheet"/>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
 </head>
-<body class="reg-body">
+<body class="index-body">
     <header>
         <div class="header-div">
-            <a href="index.html"><img class="headerimg" src="images/Group 148.svg" alt="logo"> </a>
+            <a href="index.html"><img class="headerimg" src="images/Group148.svg" alt="logo"> </a>
             <nav>
-                <ul class="header-nav-ul">
-                    <li> <a href="index.html" #About US>About US</a></li>
-                    <li> <a href="index.html">Exclusive Cookies</a></li>
-                    <li> <a href="index.html">Gallery</a></li>
-                    <li> <a href="index.html">Delivery</a></li>
-                    <li> <a href="index.html">Contact Us</a></li>
+                <ul class="header-nav-ul" id="navigation">
+                    <li> <a href="#About US">About US</a></li>
+                    <li> <a href="#Exclusive Cookies">Exclusive Cookies</a></li>
+                    <li> <a href="#Gallery">Gallery</a></li>
+                    <li> <a href="#Delivery">Delivery</a></li>
+                    <li> <a href="contact.html">Contact Us</a></li>
+                    <li class="order-li"><a href="register.html"> Order Now</a> </li>
                     
                 </ul>
                
             </nav>
             <a href="register.html"><img class="registergif" src="https://media2.giphy.com/media/YlBQBWdfS7Q2uma3BB/200w.gif?cid=82a1493bl8tbrk191jkbwlebdfn0uz3w27iarjs3rtcpwsvx&rid=200w.gif&ct=g" alt="order now"></a>
-            <div class="toggle-button">
+            <div class="toggle-button" id="toggleButton">
                 <i class="fas fa-bars"></i>
 
             </div>
@@ -86,9 +99,9 @@
 
         </div>
     </section>
-    <footer>
+    <footer class="footer">
         <div class="footer-div">
-            <img src="images/Group 149.png" alt="footer logo">
+            <img src="images/Group149.png" alt="footer logo">
             
              <div class="footer-nav">
                 <h3><a href="contact.html">Contact Us</a></h3>
@@ -112,7 +125,10 @@
 
             
             
-    <script src="script.js"></script> 
-    <script src="register.js"></script>  
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="slick.js"></script>
+    <script src="slick.min.js"></script>
+    <script src="burger.js"></script>
+	<script src="script.js"></script>   
     
     </body>
