@@ -1,4 +1,6 @@
-document.getElementById('order').addEventListener('click', function(){
-    alert('you ordered sucsesfully')
 
-})
+
+ // document.getElementById('register').addEventListener('click' , function (){
+ //    alert('your information has been submitted')
+ // })
+ 
