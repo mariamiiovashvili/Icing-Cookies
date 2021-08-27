@@ -943,11 +943,7 @@ footer {
     /* margin-top: 70px; */
 
 }
-.footer-div img {
-    /*max-width: 360px;*/
-    /*width: 100%;*/
 
-}
 .qwerty {
     max-width: 400px;
     width: 100%;
@@ -992,22 +988,20 @@ footer {
     
             justify-content:space-evenly;
     
-    /*margin: auto 0;*/
+    
     font-family: 'Poppins', sans-serif;
     font-size: 30px;
     color: white;
 }
 .foth4 {
-   /*background-color: lightpink;*/
+   
    font-size: 15px;
    font-family: 'Poppins', sans-serif;
 }
 
 /*map*/
 
-.gmap_iframe{
-    /*frameborder="0" scrolling="no" marginheight="0" marginwidth="0"*/
-}
+
 .mapouter {
        position:relative;
        text-align:right;
