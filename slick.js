@@ -10,19 +10,20 @@ $(function(){
      dots:true,
      
      responsive: [
+        
          {
-           breakpoint: 922,
+          breakpoint: 880,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2
+          }
+        },
+         {
+           breakpoint: 470,
            settings: {
              
-             slidesToShow: 3,
-             slidesToScroll: 2
-           }
-         },
-         {
-           breakpoint: 480,
-           settings: {
              slidesToShow: 1,
-             slidesToScroll: 1
+             slidesToScroll: 2
            }
          }
      ]

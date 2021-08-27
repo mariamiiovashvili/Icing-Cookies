@@ -402,6 +402,7 @@ h5::before {
     width: 100%;
     /* height: 1040px; */
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -421,6 +422,19 @@ h5::before {
     
 
 }
+.container4 h4 {
+    text-align: center;
+    max-width: 780px;
+    width: 100%;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 40px;
+    font-family: 'Cormorant Upright', serif;
+    color:purple;
+    margin-bottom: 50px;
+    
+
+}
 .leftblock {
     display: flex;
     flex-wrap: wrap;
@@ -435,8 +449,9 @@ h5::before {
    
     max-width: 800px;
     width: 100%;
-    height: 450px;
+    height: 700px;
     margin: 0 auto;
+    margin: auto 0;
     background-color: lightpink;
 
 }
@@ -463,7 +478,7 @@ h5::before {
     height: 40px;
     font-size: 13px;
     font-family: 'Poppins', sans-serif;
-    color: #2E2E2E;
+    color:purple;
     opacity: 0.4 ;
     margin-top: 9px;
     margin-bottom: 15px;
@@ -474,13 +489,27 @@ h5::before {
 }
 .checkbox{
     display: flex;
-    /* flex-direction: column; */
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    line-height: 10px;
     color: purple;
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
     margin-top: 15px;
     
+
+}
+
+.ordermessage {
+    max-width: 420px;
+    width: 100%;
+    height: 200px;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    color: #2E2E2E;
+    opacity: 0.4 ;
+    margin-top: 9px;
+    margin-bottom: 15px;
 
 }
 .form-p {

@@ -123,6 +123,13 @@
         max-width: 700px;
         width: 100%;
     }
+    .contact-form {
+        margin-bottom: 50px;
+    }
+    .small-div {
+        justify-content: center;
+    }
+   
     
  }
  @media (max-width: 734px) {
@@ -130,6 +137,7 @@
         justify-content: space-between;
         
     }
+    
     
 } 
 @media (max-width: 689px) {
@@ -169,3 +177,15 @@
      }
 
 }
+@media (max-width: 430px) {
+    .mail {
+      align-items: center;
+      margin-left: -50px;
+      margin-top: 20px;
+      
+    }
+    .addess {
+        align-items: center;
+    }
+}
+
