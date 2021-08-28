@@ -1,4 +1,11 @@
+/* @media (max-width: 1295px){
+    .small-div {
+        max-width: 1000px;
+        width: 100%;
+        justify-content: flex-end;
+    }
 
+} */
 
 @media (max-width: 1091px) {
     .registergif {
@@ -100,6 +107,18 @@
         margin-top: 270px;
     }
 }
+@media (max-width: 800px ){
+
+    .small-div {
+       -webkit-box-pack: center;
+          -ms-flex-pack: center;
+            justify-content: center;
+   }
+   .contact-form {
+        margin-bottom: 50px;
+}
+}
+
 
     @media (max-width: 783px ) {
     .container2 {
@@ -133,15 +152,7 @@
         max-width: 700px;
         width: 100%;
     }
-    .contact-form {
-        margin-bottom: 50px;
-    }
-    .small-div {
-        -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
-    }
-   
+      
     
  }
 
@@ -217,7 +228,7 @@
             -ms-flex-align: center;
                 align-items: center;
     }
-    .qwerty{
+    .footerimg{
         max-width: 150px;
     }
     .footer-logos {
@@ -237,6 +248,43 @@
         max-width: 150px;
         width: 100%;
         font-size: 15px;
+        margin-left: 65px;
     }
+    .left-block h2 {
+        font-size: 35px;
+
+    }
+    .container h3 {
+        font-size: 35px;
+    }
+    .line1 img,
+    .line2 img {
+        max-width: 260px;
+        width: 100%;
+
+    }
+    .line1 h3,
+    .line2 h3 {
+        font-size: 22px;
     
+   }
+    .line1 h4,
+    .line2 h4 {
+        font-size: 16px;
+    }
+    .line1 h5,
+    .line2 h5 {
+        font-size: 18px;
+    }
+    .container2 h3 {
+        font-size: 35px;
+    }
+    .cont-line1 h3 {
+        font-size: 22px;
+
+    }
+    .container3 h2{
+        font-size: 35px;
+    }
+      
 }

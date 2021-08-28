@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
 
 
 .body {
@@ -385,9 +392,14 @@ h5::before {
 .cont-line1 img {
     max-width: 200px;
     width: 100%;
+    opacity: 1.0;
     
 
 }
+.cont-line1 img:hover {
+    opacity: 0.4;
+}
+
 .cont-line1 h3 {
     font-size: 21px;
     font-weight: 600;
@@ -773,9 +785,7 @@ h5::before {
 .contact-div p {
     font-size: 25px;
     font-family: 'Cormorant Upright', serif;
-    -webkit-columns: grey;
-       -moz-columns: grey;
-            columns: grey;
+    color: grey;
     margin-bottom: 10px;
 }
 
@@ -944,7 +954,7 @@ footer {
 
 }
 
-.qwerty {
+.footerimg {
     max-width: 400px;
     width: 100%;
 }
