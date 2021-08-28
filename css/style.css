@@ -1,20 +1,13 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.3.6,
-* Autoprefixer: v10.3.1
-* Browsers: last 4 version
-*/
-
-
 
 .body {
     background-color:mistyrose;
 }
 .index-body {
     background-color:#FFF0F5;
+   
 }
 .reg-body {
-    background-color: #F5F5F5;
+    background-color: #FFF0F5;
 }
 
 header {
@@ -54,6 +47,7 @@ header {
     margin-top: auto;
     max-width: 244px;
     width: 100%;
+    
 
 }
 .header-nav-ul {
@@ -150,9 +144,10 @@ section {
     width: 100%;
     font-size: 50px;
     font-weight: bold;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Emilys Candy', cursive;
     margin-bottom: 40px;
     color: lightpink;
+    text-shadow:2px 2px purple;
     
 }
 .left-block p {
@@ -173,6 +168,9 @@ section {
 .right-block img {
     max-width: 770px;
     width: 100%;
+    padding: 1px;
+    -webkit-box-shadow: 1px 1px 8px 10px pink;
+            box-shadow: 1px 1px 8px 10px pink;
 }
 
 /* section2  */
@@ -197,13 +195,14 @@ section {
 }
 .container h3 {
     text-align: center;
-    max-width: 380px;
+    max-width: 480px;
     width: 100%;
     font-size: 47px;
     font-weight: 600;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Emilys Candy', cursive;
     color: pink;
     margin-bottom: 50px;
+    text-shadow:2px 2px purple;
     
 }
 .container-line1 {
@@ -241,8 +240,8 @@ section {
 .line1 img {
     max-width: 300px;
     width: 100%;
-    -webkit-box-shadow: 5px 10px 10px #8888;
-            box-shadow: 5px 10px 10px #8888;
+    -webkit-box-shadow: 5px 5px 10px 10px #8888;
+            box-shadow: 5px 5px 10px 5px #8888;
     
 }
 .line1 h3,
@@ -264,12 +263,29 @@ section {
 }
 .line1 h5,
 .line2 h5 {
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 600;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Hina Mincho', serif;
     color: #42495B;
+    -webkit-animation: sale 5s infinite;
+            animation: sale 5s infinite;
+    
    
+    
 }
+@-webkit-keyframes sale {
+   
+    0% {font-size: 17px;}
+    50% { font-size: 19px;}
+  
+}
+@keyframes sale {
+   
+    0% {font-size: 17px;}
+    50% { font-size: 19px;}
+  
+}
+
 .container-line2 {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -307,8 +323,8 @@ section {
     width: 100%;
     /* height: 300px; */
     opacity: 1.0;
-    -webkit-box-shadow: 5px 10px 10px #8888;
-            box-shadow: 5px 10px 10px #8888;
+    -webkit-box-shadow: 5px 5px 10px 5px #8888;
+            box-shadow: 5px 5px 10px 5px #8888;
 }
 
 .line2 img:hover,
@@ -319,15 +335,15 @@ h5::before {
     content: "SALE ";
     color: red;
     font-size: 18px;
-
-    
+  
 }
+
+
 
 /* section3 */
 .container2 {
     max-width: 1940px;
     width: 100%;
-    /* height: 840px; */
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -350,9 +366,10 @@ h5::before {
     width: 100%;
     font-size: 47px;
     font-weight: 600;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Emilys Candy', cursive;
     color: pink;
     margin-bottom: 10px;
+    text-shadow:2px 2px purple;
 
 }
 .container2-line1 {
@@ -392,12 +409,14 @@ h5::before {
 .cont-line1 img {
     max-width: 200px;
     width: 100%;
-    opacity: 1.0;
-    
+    -webkit-box-shadow: 5px 5px 10px 5px #8888;
+            box-shadow: 5px 5px 10px 5px #8888;
+     
 
 }
 .cont-line1 img:hover {
-    opacity: 0.4;
+     width: 300px;
+     
 }
 
 .cont-line1 h3 {
@@ -418,12 +437,31 @@ h5::before {
 
 }
 .cont-line1 h5 {
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 600;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Hina Mincho', serif;
     color: #42495B;
-
+    -webkit-animation: sal 5s infinite;
+            animation: sal 5s infinite;
+    
+   
+    
 }
+@-webkit-keyframes sal {
+   
+        0% {font-size: 17px;}
+        50% { font-size: 19px;}
+      
+    }
+@keyframes sal {
+   
+        0% {font-size: 17px;}
+        50% { font-size: 19px;}
+      
+    }
+    
+
+
 /* slick */
 .slider {
     display: -webkit-box;
@@ -481,21 +519,23 @@ h5::before {
     width: 100%;
     font-size: 47px;
     font-weight: 600;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Emilys Candy', cursive;
+    
     color: pink;
     margin-bottom: 20px;
+    text-shadow:2px 2px purple;
 
 }
 .container3 h4 {
-    font-size: 25px;
-    font-family: 'Poppins', sans-serif;
-    color: #C19C9C;
+    font-size: 35px;
+    font-family: 'Hina Mincho', serif;
+    color: mediumorchid;
     margin-top: 80px;
     
 }
 .container3 p {
-    font-size: 20px;
-    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-family: 'Hina Mincho', serif;
     line-height: 25px;
     margin-top: 35px;
     color: dimgrey;
@@ -531,9 +571,10 @@ h5::before {
     width: 100%;
     font-size: 47px;
     font-weight: 600;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Emilys Candy', cursive;
     color: pink;
     margin-bottom: 50px;
+    text-shadow:2px 2px purple;
     
 
 }
@@ -542,9 +583,9 @@ h5::before {
     max-width: 780px;
     width: 100%;
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 400;
     line-height: 40px;
-    font-family: 'Cormorant Upright', serif;
+    font-family: 'Caveat', cursive;
     color:purple;
     margin-bottom: 50px;
     
@@ -659,6 +700,7 @@ h5::before {
     margin: 0 auto;
     
     
+    
    
     
     
@@ -667,12 +709,35 @@ h5::before {
     color: #FFFFFF;
     background-color: purple;
     height: 55px;
-    font-size: 18px;
-    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-family: 'Hina Mincho', serif;
+    -webkit-animation: order 0.5s infinite;
+            animation: order 0.5s infinite;
+    
+   
+    
 }
+@-webkit-keyframes order {
+    0% {background-color: pink; font-size: 20px;}
+    50% {background-color: lightcoral; font-size: 22px;}
+    100% {background-color: mediumpurple; font-size: 24px;}
+    
+    
+   
+}
+@keyframes order {
+    0% {background-color: pink; font-size: 20px;}
+    50% {background-color: lightcoral; font-size: 22px;}
+    100% {background-color: mediumpurple; font-size: 24px;}
+    
+    
+   
+}
+
+
 .button-type button:hover {
     background-color:palevioletred;
-    font-size: 20px;
+    font-size: 26px;
     color: purple;
     font-family: 'Poppins', sans-serif;
 
@@ -691,6 +756,7 @@ h5::before {
     height: 750px;
     margin: 0 auto;
     background-color: lightpink;
+   
 
 }
 
@@ -727,18 +793,18 @@ h5::before {
     margin-bottom: 20px;
 }
 
-.button-type1 {
+.button-type {
     color: #FFFFFF;
     font-size: 15px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Emilys Candy', cursive;
     background-color: purple;
     max-width: 151px;
     width: 100%;
     height: 32px;
-    margin-left: 765px;
-    margin-top: 30px;
+   
 }
-.button-type1:hover {
+
+.button-type:hover {
     background-color:palevioletred;
     font-size: 20px;
     
@@ -768,23 +834,24 @@ h5::before {
         -ms-flex-align: center;
             align-items: center;
     text-align: center;
+    
 }
 .contact-div h2 {
     color: purple;
     font-size: 65px;
-    font-family: 'Cormorant Upright', serif;
+    font-family: 'Emilys Candy', cursive;
 }
 .contact-div h3 {
     color: purple;
     font-size: 35px;
-    font-family: 'Cormorant Upright', serif;
+    font-family: 'Emilys Candy', cursive;
     margin-top: 50px;
     margin-bottom: 18px;
 
 }
 .contact-div p {
-    font-size: 25px;
-    font-family: 'Cormorant Upright', serif;
+    font-size: 21px;
+    font-family: 'Emilys Candy', cursive;
     color: grey;
     margin-bottom: 10px;
 }
@@ -800,7 +867,7 @@ h5::before {
     -ms-flex-pack: distribute;
         justify-content: space-around;
     margin-top: 90px;
-    /* align-items: center; */
+    
 }
 .formwrapper2 {
     max-width: 800px;
@@ -819,7 +886,7 @@ h5::before {
 
 .contact-form h3 {
     font-size: 30px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Emilys Candy', cursive;
     color: purple;
     margin-bottom: 20px;
 }
@@ -868,15 +935,51 @@ h5::before {
 .submit {
     color: purple;
     font-size: 25px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Emilys Candy', cursive;
     border-radius: 20px 20px 20px 20px;
     border-color: purple;
     background-color: white;
     max-width: 150px;
     width: 100%;
     height:45px;
-    margin-top: 30px;
+    margin-top: 30px; 
+    -webkit-animation: submit 0.9s infinite; 
+            animation: submit 0.9s infinite;
+    
+   
+    
 }
+@-webkit-keyframes submit {
+    0% {background-color: pink;color: powderblue;}
+    10% {background-color: palevioletred;color: lightseagreen;}
+    20% {background-color: lightseagreen;color: magenta;}
+    30% {background-color: lightskyblue;color: pink;}
+    40% {background-color: limegreen;color: plum;}
+    50% {background-color: lightcoral;color: yellowgreen;}
+    60% {background-color: lightblue;color: violet;}
+    70% {background-color: yellowgreen;color: lightskyblue;}
+    80% {background-color: plum;color: limegreen;}
+    90% {background-color: peachpuff;color: mediumblue;}
+    100% {background-color: powderblue;color: mediumpurple;}
+    
+   
+}
+@keyframes submit {
+    0% {background-color: pink;color: powderblue;}
+    10% {background-color: palevioletred;color: lightseagreen;}
+    20% {background-color: lightseagreen;color: magenta;}
+    30% {background-color: lightskyblue;color: pink;}
+    40% {background-color: limegreen;color: plum;}
+    50% {background-color: lightcoral;color: yellowgreen;}
+    60% {background-color: lightblue;color: violet;}
+    70% {background-color: yellowgreen;color: lightskyblue;}
+    80% {background-color: plum;color: limegreen;}
+    90% {background-color: peachpuff;color: mediumblue;}
+    100% {background-color: powderblue;color: mediumpurple;}
+    
+   
+}
+
 .submit:hover {
     color:palevioletred;
     font-size: 30px;
@@ -924,21 +1027,20 @@ h5::before {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+        -webkit-box-shadow: 5px 5px 10px 5px #8888;
+                box-shadow: 5px 5px 10px 5px #8888;
 }
 
 /* footer */
 footer {
-    /*max-width: 1920px;*/
     width: 100%;
     background-color: lightpink;
 }
 
 .footer-div {
-    /*margin: 0 auto;*/
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    /*flex-wrap: wrap; */
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -990,8 +1092,7 @@ footer {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    /*flex-wrap: wrap;*/
-    
+        
     -webkit-box-pack:space-evenly;
     
         -ms-flex-pack:space-evenly;
@@ -1002,6 +1103,24 @@ footer {
     font-family: 'Poppins', sans-serif;
     font-size: 30px;
     color: white;
+    
+}
+
+.footer-logos i {
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+    transition: width 2s, height 2s, -webkit-transform 2s;
+    -o-transition: width 2s, height 2s, transform 2s;
+    transition: width 2s, height 2s, transform 2s;
+    transition: width 2s, height 2s, transform 2s, -webkit-transform 2s;
+}
+.footer-logos i:hover {
+    -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+            transform: rotate(360deg);
+    color: purple;
+    
+    
+
 }
 .foth4 {
    
