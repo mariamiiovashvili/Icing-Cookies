@@ -383,9 +383,8 @@ h5::before {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    /* max-width: 1940px; */
+    
     width: 80%;
-    /* height: 540px; */
     padding-top: 45px;
 
 }
@@ -541,7 +540,7 @@ h5::before {
     color: dimgrey;
 }
 
-/* section5 */
+/* section5 order form */
 .container4 {
     max-width: 940px;
     width: 100%;
@@ -571,11 +570,10 @@ h5::before {
     width: 100%;
     font-size: 47px;
     font-weight: 600;
-    font-family: 'Emilys Candy', cursive;
+    font-family: 'Emilys Candy';
     color: pink;
     margin-bottom: 50px;
     text-shadow:2px 2px purple;
-    
 
 }
 .container4 h4 {
@@ -584,8 +582,8 @@ h5::before {
     width: 100%;
     font-size: 24px;
     font-weight: 400;
-    line-height: 40px;
-    font-family: 'Caveat', cursive;
+    line-height: 30px;
+    font-family: 'Emilys Candy', cursive;
     color:purple;
     margin-bottom: 50px;
     
@@ -745,11 +743,11 @@ h5::before {
 } 
 .gifimage {
     width: 90%;
-    /* margin-left: 100px; */
+    
 }
 
 /* registerhtml */
-.registerform {
+/* .registerform {
    
     max-width: 1800px;
     width: 100%;
@@ -815,7 +813,7 @@ h5::before {
     color: purple;
     margin-left: 450px;
     margin-bottom: 50px;
-}
+} */
 
 /* contact html */
 .contact-div {
@@ -839,6 +837,7 @@ h5::before {
 .contact-div h2 {
     color: purple;
     font-size: 65px;
+    font-weight: 600;
     font-family: 'Emilys Candy', cursive;
 }
 .contact-div h3 {
@@ -1005,7 +1004,7 @@ h5::before {
             justify-content: flex-end;
     text-align: center;
     font-size: 20px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Emilys Candy', cursive;
     margin-top: 50px;
     margin-bottom: 50px;
     color: purple;
@@ -1019,7 +1018,7 @@ h5::before {
 .mail h4 {
     margin-bottom: 20px;
     font-size: 25px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Emilys Candy', cursive;
 }
 .mapouter {
     display: -webkit-box;
@@ -1047,13 +1046,11 @@ footer {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    /*background-color: lightpink;*/
     max-width: 1720px;
     width: 100%;
     padding-left: 75px;
     padding-top: 20px;
-    /* margin-top: 70px; */
-
+   
 }
 
 .footerimg {
