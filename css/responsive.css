@@ -195,6 +195,8 @@
 @media (max-width: 435px) {
     .left-block {
         margin: 0 auto;
+        margin-bottom: 40px;
+        }
     }
     .mail {
       -webkit-box-align: center;
