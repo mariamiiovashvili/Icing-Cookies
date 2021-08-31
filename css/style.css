@@ -466,6 +466,9 @@ h5::before {
 
 
 /* slick */
+.sectionslick {
+    padding: 30px;
+}
 .slider {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -498,6 +501,9 @@ h5::before {
 }
 
 /* section4 */
+.sectiondelivery {
+    padding: 30px;
+}
 .container3 {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -699,7 +705,7 @@ h5::before {
     width: 100%;
     height: 32px;
     margin: 0 auto;
-    
+        
     
     
    
@@ -710,8 +716,9 @@ h5::before {
     color: #FFFFFF;
     background-color: purple;
     height: 55px;
-    font-size: 22px;
+    font-size: 20px;
     font-family: 'Hina Mincho', serif;
+    
     cursor: pointer;
     -webkit-animation: order 0.5s infinite;
             animation: order 0.5s infinite;
@@ -721,8 +728,8 @@ h5::before {
 }
 @-webkit-keyframes order {
     0% {background-color: pink; font-size: 20px;}
-    50% {background-color: lightcoral; font-size: 22px;}
-    100% {background-color: mediumpurple; font-size: 24px;}
+    50% {background-color: lightcoral; font-size: 21px;}
+    100% {background-color: mediumpurple; font-size: 22px;}
     
     
    
@@ -784,7 +791,7 @@ h5::before {
     color: purple;
     margin-left: 450px;
     margin-bottom: 50px;
-} */
+} 
 
 /* contact html */
 .contact-div {
